@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+      <meta charset="windows-1252">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+      <title>Trivox Text</title>
+      <link href="/css/trivoxtext.css" rel="stylesheet">
+      <script src="/js/jquery.min.js"></script>
+      <script src="/js/jquery.jeditable.js" type="text/javascript" charset="windows-1252"></script>
+      <script src="/js/trivoxtext.js"></script>
+   </head>
+   <body>
+   <h2><span class="kind"></span> Id: <input type="text" name="id" value="0000" class="id-input" /></h2>
+   <div id="text-name"></div>
+   <div id="buttons">
+      <button class="first">!</button>
+      <button class="xxprev">&lt;&lt;&lt;</button>
+      <button class="xprev">&lt;&lt;</button>
+      &nbsp;&nbsp;
+      <button class="prev main">&lt;</button>
+      <button class="next main">&gt;</button>
+      &nbsp;&nbsp;
+      <button class="xnext">&gt;&gt;</button>
+      <button class="xxnext">&gt;&gt;&gt;</button>
+      <button class="last">!</button>
+   </div>
+   <select id="language">
+      <option value="5912" selected>English & Spanish  </option>
+      <option value="5265"         >English & Portugues</option>
+   </select>
+   <label id="missing-loc"><input id="missing" type="checkbox" name="missing" value="1" />Missing Only</label>
+   <div id="info">
+      (<span id="count">0</span> elements)
+   </div>
+   <img id="spinner" src="/images/loading.gif" /> 
+
+   <div class="english-loc">
+      <h3>Text id: <span class="english-qtid">0000</span> (English)</h3>
+      <div class="edit english">
+      </div>
+   </div>
+   <div class="foreign-loc">
+      <h3>Text id: <span class="foreign-qtid">0000</span> (Foreign)</h3>
+      <div class="edit foreign">
+      </div>
+   </div>
+   </body>
+</html>

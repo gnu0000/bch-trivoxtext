@@ -1,0 +1,99 @@
+.english-loc {
+   position: absolute;
+   top: 8em;
+   left: 0.5em;
+   width: 48%;
+   min-height: 20em;
+}
+
+.foreign-loc {
+   position: absolute;
+   top: 8em;
+   left: 50%;
+   width: 48%;
+   min-height: 20em;
+}
+
+.edit {
+   border: 3px solid #aaa;
+   border-radius: 8px;
+   min-height: 20em;
+   padding: 0.5em;
+}
+
+.id-input {
+   font-size: 1.1em;
+   width: 5em;
+}
+
+.edit.english {
+   background-color: #eef;
+}
+
+.edit.foreign {
+   background-color: #fee;
+}
+
+var {
+   background-color: #B5EAAA;
+}
+
+acronym {
+   background-color: #AAEAB5;
+}
+
+body {
+   font-size: 1.25em;
+}
+
+.main {
+   font-size: 1em;
+}
+
+#language {
+   position: absolute;
+   top: 1em;
+   right: 1em;
+}
+
+#missing-loc {
+   position: absolute;
+   top: 2.5em;
+   right: 1em;
+   font-size: 0.75em;
+}
+
+#info {
+   position: absolute;
+   top: 4em;
+   right: 1em;
+   font-size: 0.75em;
+}
+
+#text-name {
+   position: absolute;
+   top: 4.5em;
+   height: 2em;
+   width: auto;
+   left: 0.5em;
+   right: 1em;
+   border: 3px solid #aaa;
+   border-radius: 8px;
+   overflow: hidden;
+   padding: 0.5em 0.5em;
+}
+
+
+#buttons {
+   font-size: 1.25em;
+   position: absolute;
+   top: 1em;
+   left: 15em;
+}
+
+#spinner {
+   position: absolute;
+   left: 45%;
+   top:  5em;
+/*   visibility: hidden; */
+}
